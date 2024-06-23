@@ -27,7 +27,7 @@ class CloudStrm(_PluginBase):
     # 插件描述
     plugin_desc = "定时扫描云盘文件，生成Strm文件。"
     # 插件图标
-    plugin_icon = "https://raw.githubusercontent.com/thsrite/MoviePilot-Plugins/main/icons/create.png"
+    plugin_icon = "https://raw.githubusercontent.com/shiji5824666/MoviePilot-Plugins/main/icons/create.png"
     # 插件版本
     plugin_version = "4.6.1"
     # 插件作者
@@ -875,7 +875,7 @@ class CloudStrm(_PluginBase):
                                             'type': 'info',
                                             'variant': 'tonal',
                                             'text': '配置说明：'
-                                                    'https://raw.githubusercontent.com/thsrite/MoviePilot-Plugins/main/docs/CloudStrm.md'
+                                                    'https://raw.githubusercontent.com/shiji5824666/MoviePilot-Plugins/main/docs/CloudStrm.md'
                                         }
                                     }
                                 ]
