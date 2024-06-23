@@ -54,6 +54,8 @@ class CloudStrm(_PluginBase):
     _dav_pass = None
     _observer = []
     _video_formats = ('.mp4', '.avi', '.rmvb', '.wmv', '.mov', '.mkv', '.flv', '.ts', '.webm', '.iso', '.mpg', '.m2ts')
+    _ass_formats = ('cht.ass', 'jp.ass')
+    _media_formats = ('.ass', '.srt', '.ssa')
     __cloud_files_json = "cloud_files.json"
 
     _dirconf = {}
@@ -452,7 +454,7 @@ class CloudStrm(_PluginBase):
                                 shutil.copy2(source_file, dest_file)
                                 logger.info(f"复制其他文件 {source_file} 到 {dest_file}")
                             else:
-                                if self._copy_files and self._alist_webdav:
+                                if self._copy_files and self._alist_webdav and dest_file.lower().endswith(self._media_formats) and not dest_file.lower().endswith(self._ass_formats):
                                     p=1
                                     while p<10:
                                             try:
