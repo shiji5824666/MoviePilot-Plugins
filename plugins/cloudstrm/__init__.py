@@ -29,11 +29,11 @@ class CloudStrm(_PluginBase):
     # 插件图标
     plugin_icon = "https://raw.githubusercontent.com/thsrite/MoviePilot-Plugins/main/icons/create.png"
     # 插件版本
-    plugin_version = "4.2.1"
+    plugin_version = "4.6.1"
     # 插件作者
-    plugin_author = "thsrite"
+    plugin_author = "shiji5824666"
     # 作者主页
-    author_url = "https://github.com/thsrite"
+    author_url = "https://github.com/shiji5824666"
     # 插件配置项ID前缀
     plugin_config_prefix = "cloudstrm_"
     # 加载顺序
