@@ -2,8 +2,11 @@ import json
 import os
 import shutil
 import urllib.parse
+import time
+import requests
 from datetime import datetime, timedelta
 from pathlib import Path
+from webdav3.client import Client
 
 import pytz
 from typing import Any, List, Dict, Tuple, Optional
@@ -15,7 +18,7 @@ from apscheduler.triggers.cron import CronTrigger
 
 from app.log import logger
 from app.plugins import _PluginBase
-from app.core.config import settings, Settings
+from app.core.config import settings
 
 
 class CloudStrm(_PluginBase):
@@ -24,13 +27,13 @@ class CloudStrm(_PluginBase):
     # 插件描述
     plugin_desc = "定时扫描云盘文件，生成Strm文件。"
     # 插件图标
-    plugin_icon = "https://raw.githubusercontent.com/shiji5824666/MoviePilot-Plugins/main/icons/create.png"
+    plugin_icon = "https://raw.githubusercontent.com/thsrite/MoviePilot-Plugins/main/icons/create.png"
     # 插件版本
     plugin_version = "4.6.1"
     # 插件作者
-    plugin_author = "shiji5824666"
+    plugin_author = "thsrite"
     # 作者主页
-    author_url = "https://github.com/shiji5824666"
+    author_url = "https://github.com/thsrite"
     # 插件配置项ID前缀
     plugin_config_prefix = "cloudstrm_"
     # 加载顺序
@@ -872,7 +875,7 @@ class CloudStrm(_PluginBase):
                                             'type': 'info',
                                             'variant': 'tonal',
                                             'text': '配置说明：'
-                                                    'https://raw.githubusercontent.com/shiji5824666/MoviePilot-Plugins/main/docs/CloudStrm.md'
+                                                    'https://raw.githubusercontent.com/thsrite/MoviePilot-Plugins/main/docs/CloudStrm.md'
                                         }
                                     }
                                 ]
