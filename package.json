@@ -3,9 +3,9 @@
         "name": "云盘Strm生成",
         "description": "监控文件创建，生成Strm文件。",
         "labels": "云盘",
-        "version": "4.2",
-        "icon": "https://raw.githubusercontent.com/thsrite/MoviePilot-Plugins/main/icons/create.png",
-        "author": "thsrite",
+        "version": "4.6.1",
+        "icon": "https://raw.githubusercontent.com/shiji5824666/MoviePilot-Plugins/main/icons/create.png",
+        "author": "shiji5824666",
         "level": 1,
         "history": {
           "v4.2": "扩展名转小写",
