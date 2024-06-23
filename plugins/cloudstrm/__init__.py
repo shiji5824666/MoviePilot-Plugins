@@ -2,11 +2,8 @@ import json
 import os
 import shutil
 import urllib.parse
-import time
-import requests
 from datetime import datetime, timedelta
 from pathlib import Path
-from webdav3.client import Client
 
 import pytz
 from typing import Any, List, Dict, Tuple, Optional
@@ -18,7 +15,7 @@ from apscheduler.triggers.cron import CronTrigger
 
 from app.log import logger
 from app.plugins import _PluginBase
-from app.core.config import settings
+from app.core.config import settings, Settings
 
 
 class CloudStrm(_PluginBase):
