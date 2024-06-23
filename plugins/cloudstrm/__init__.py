@@ -54,7 +54,7 @@ class CloudStrm(_PluginBase):
     _dav_pass = None
     _observer = []
     _video_formats = ('.mp4', '.avi', '.rmvb', '.wmv', '.mov', '.mkv', '.flv', '.ts', '.webm', '.iso', '.mpg', '.m2ts')
-    _ass_formats = ('cht.ass', 'jp.ass', 'tc.ass', 'BIG5.ass')
+    _ass_formats = ('.cht.ass', '.jp.ass', '.tc.ass', '.BIG5.ass')
     _media_formats = ('.ass', '.srt', '.ssa')
     __cloud_files_json = "cloud_files.json"
 
