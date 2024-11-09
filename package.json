@@ -4,6 +4,7 @@
         "description": "监控文件创建，生成Strm文件。",
         "labels": "云盘",
         "version": "4.7.2",
+        "v2": true,
         "icon": "https://raw.githubusercontent.com/shiji5824666/MoviePilot-Plugins/main/icons/create.png",
         "author": "shiji5824666",
         "level": 1,
