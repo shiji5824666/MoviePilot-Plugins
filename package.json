@@ -1,4 +1,17 @@
 {
+        "AniStrm": {
+        "name": "ANiStrm",
+        "description": "自动获取当季所有番剧，免去下载，轻松拥有一个番剧媒体库",
+        "labels": "云盘",
+        "version": "9.99",
+        "v2": true,
+        "icon": "https://raw.githubusercontent.com/honue/MoviePilot-Plugins/main/icons/anistrm.png",
+        "author": "shiji5824666",
+        "level": 1,
+        "history": {
+          "v9.99": "自用",
+        }
+      },
       "CloudStrm": {
         "name": "云盘Strm生成",
         "description": "监控文件创建，生成Strm文件。",
