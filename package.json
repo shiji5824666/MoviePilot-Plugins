@@ -1,17 +1,4 @@
 {
-      "AniStrm": {
-        "name": "ANiStrm",
-        "description": "自动获取当季所有番剧，免去下载，轻松拥有一个番剧媒体库",
-        "labels": "云盘",
-        "version": "9.99",
-        "v2": true,
-        "icon": "https://raw.githubusercontent.com/honue/MoviePilot-Plugins/main/icons/anistrm.png",
-        "author": "shiji5824666",
-        "level": 1,
-        "history": {
-          "v9.99": "自用"
-        }
-      },
       "CloudStrm": {
         "name": "云盘Strm生成",
         "description": "监控文件创建，生成Strm文件。",
@@ -33,11 +20,25 @@
           "v3.0": "实现改为定时扫描"
         }
       },
+      "AniStrm": {
+        "name": "ANiStrm",
+        "description": "自动获取当季所有番剧，免去下载，轻松拥有一个番剧媒体库",
+        "labels": "云盘",
+        "version": "9.99",
+        "v2": true,
+        "icon": "https://raw.githubusercontent.com/honue/MoviePilot-Plugins/main/icons/anistrm.png",
+        "author": "shiji5824666",
+        "level": 1,
+        "history": {
+          "v9.99": "自用"
+        }
+      },
       "CloudStrmIncrement": {
         "name": "云盘Strm生成（增量版）",
         "description": "监控文件创建，生成Strm文件（增量版）。",
         "labels": "云盘",
-        "version": "1.0",
+        "version": "1.1",
+        "v2": true,    
         "icon": "https://raw.githubusercontent.com/thsrite/MoviePilot-Plugins/main/icons/create.png",
         "author": "thsrite",
         "level": 1,
