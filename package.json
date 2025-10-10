@@ -3,7 +3,7 @@
     "name": "云盘Strm生成",
     "description": "监控文件创建，生成Strm文件。",
     "labels": "云盘",
-    "version": "7.7.8",
+    "version": "7.7.9",
     "icon": "https://raw.githubusercontent.com/thsrite/MoviePilot-Plugins/main/icons/create.png",
     "author": "thsrite",
     "level": 1,
